@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Difei Liu - Resume</title>
+  <title>Difei Liu - Profile Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2em; background: #f9f9f9; }
@@ -30,7 +30,6 @@
   <div class="section">
     <h2>About Me</h2>
     <p>
-      <!-- Brief summary goes here -->
       Passionate data scientist with experience in machine learning, analytics, and Python programming. Seeking opportunities to apply AI and data-driven solutions.
     </p>
   </div>
@@ -68,7 +67,6 @@
 
   <div class="section">
     <h2>Resume Preview</h2>
-    <!-- Embed the PDF resume -->
     <iframe src="Resume%20(ChatGPT)%20-%20Difei%20Liu-new.pdf" class="pdf-embed"></iframe>
   </div>
 </body>

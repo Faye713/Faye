@@ -1,63 +1,89 @@
-# masterplan.md
+# Product Requirement Document (PRD): Profile Website Generator with GitHub Pages
 
-## Project Title
-Personal Profile Website on GitHub Pages
+## 1. Objective
 
-## Objective
-Create a responsive, visually clean, and easily customizable personal profile website hosted on GitHub Pages (username.github.io). The site will include personal information, contact details, links to work or projects, and optionally a resume or blog.
+Create a user-friendly template and workflow for individuals to generate a personal profile website using GitHub Pages (github.io). The goal is to make it simple for anyone to showcase their biography, skills, projects, and contact info, with minimal technical setup.
 
 ---
 
-## Features
+## 2. Target Audience
 
-### 1. Home Page
-- Personal introduction (name, tagline)
-- Profile picture
-- Responsive hero section
-- Call-to-action (e.g., download resume or contact me)
-
-### 2. About Section
-- Short bio
-- Skills summary
-- Work or academic background (simple timeline or list)
-
-### 3. Projects or Portfolio
-- List of selected projects with:
-  - Title
-  - Short description
-  - GitHub repo or live link
-  - Optional thumbnail or image
-
-### 4. Contact Section
-- Email link
-- Social media links (GitHub, LinkedIn, etc.)
-- Optional contact form (emailJS or Formspree)
-
-### 5. Resume (Optional)
-- Button to download a PDF resume
-- Or embedded resume section
+- Students, professionals, and hobbyists wanting a personal webpage.
+- Users with little to moderate experience with GitHub and web development.
 
 ---
 
-## Pages
-- `index.html` (main profile + sections)
-- Optional: `blog.html` or `resume.html`
+## 3. Features
+
+### a. Homepage (`index.html` or `index.md`)
+- **Profile photo**
+- **Name and tagline**
+- **Short bio**
+- **Contact links** (email, LinkedIn, GitHub, etc.)
+- **Skills and interests**
+- **List of projects or portfolio**
+- **Downloadable resume (optional)**
+
+### b. Easy Setup
+- Step-by-step instructions in `README.md`
+- All content editable via Markdown or simple HTML
+
+### c. Responsive Design
+- Works on desktop and mobile
+
+### d. Theming
+- Simple color/theme switching via CSS variables or config
+
+### e. Optional Sections
+- Blog or updates feed
+- Social media embeds
 
 ---
 
-## Styling & Design
-- Clean and minimal design (Tailwind CSS or plain CSS)
-- Light/dark mode toggle (optional)
-- Mobile responsive (Flexbox/Grid)
+## 4. Technical Requirements
+
+- Hosted via GitHub Pages (static site)
+- Supports both Markdown (`index.md`) and HTML (`index.html`)
+- No server-side code
+- All assets (images, CSS) stored in repository
+- Easy forking and customization
 
 ---
 
-## Hosting Instructions
-- Hosted on GitHub Pages
-- Automatically builds from `main` or `gh-pages` branch
-- Uses custom domain support (optional)
+## 5. User Workflow
+
+1. **Fork the repo**
+2. **Edit profile content** in `index.md` or config file (e.g., `_config.yml`)
+3. **Push changes** to their repository
+4. **Enable GitHub Pages** in repo settings
+5. **Share published site link**
 
 ---
 
-## Folder Structure
+## 6. Success Criteria
 
+- Users can set up their profile page in under 30 minutes
+- At least three themes available
+- Clear documentation and troubleshooting section
+
+---
+
+## 7. Future Enhancements
+
+- Integrate with GitHub API to auto-display pinned repositories
+- Add contact form (using third-party services)
+- Support multilingual profiles
+
+---
+
+## 8. References
+
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
+- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+- [Example Profile Templates](https://github.com/topics/profile-website)
+
+---
+
+## 9. Contributors
+
+- List contributors and maintainers here

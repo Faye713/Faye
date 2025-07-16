@@ -1,0 +1,63 @@
+# masterplan.md
+
+## Project Title
+Personal Profile Website on GitHub Pages
+
+## Objective
+Create a responsive, visually clean, and easily customizable personal profile website hosted on GitHub Pages (username.github.io). The site will include personal information, contact details, links to work or projects, and optionally a resume or blog.
+
+---
+
+## Features
+
+### 1. Home Page
+- Personal introduction (name, tagline)
+- Profile picture
+- Responsive hero section
+- Call-to-action (e.g., download resume or contact me)
+
+### 2. About Section
+- Short bio
+- Skills summary
+- Work or academic background (simple timeline or list)
+
+### 3. Projects or Portfolio
+- List of selected projects with:
+  - Title
+  - Short description
+  - GitHub repo or live link
+  - Optional thumbnail or image
+
+### 4. Contact Section
+- Email link
+- Social media links (GitHub, LinkedIn, etc.)
+- Optional contact form (emailJS or Formspree)
+
+### 5. Resume (Optional)
+- Button to download a PDF resume
+- Or embedded resume section
+
+---
+
+## Pages
+- `index.html` (main profile + sections)
+- Optional: `blog.html` or `resume.html`
+
+---
+
+## Styling & Design
+- Clean and minimal design (Tailwind CSS or plain CSS)
+- Light/dark mode toggle (optional)
+- Mobile responsive (Flexbox/Grid)
+
+---
+
+## Hosting Instructions
+- Hosted on GitHub Pages
+- Automatically builds from `main` or `gh-pages` branch
+- Uses custom domain support (optional)
+
+---
+
+## Folder Structure
+

@@ -1,89 +1,75 @@
-# Product Requirement Document (PRD): Profile Website Generator with GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Difei Liu - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2em; background: #f9f9f9; }
+    header { text-align: center; margin-bottom: 2em; }
+    img.profile { border-radius: 50%; width: 150px; }
+    h1 { margin-bottom: 0; }
+    .section { margin-bottom: 2em; }
+    a.button { display: inline-block; padding: 0.5em 1em; background: #007bff; color: white; text-decoration: none; border-radius: 4px; }
+    .pdf-embed { width: 100%; height: 600px; border: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/profile.jpg" alt="Difei Liu" class="profile">
+    <h1>Difei Liu</h1>
+    <p>Data Scientist | Machine Learning Enthusiast</p>
+    <p>
+      <a href="mailto:your-email@example.com">Email</a> |
+      <a href="https://github.com/Faye713">GitHub</a> |
+      <a href="https://linkedin.com/in/difeiliu">LinkedIn</a>
+    </p>
+    <a class="button" href="Resume%20(ChatGPT)%20-%20Difei%20Liu-new.pdf" target="_blank">Download Resume (PDF)</a>
+  </header>
 
-## 1. Objective
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      <!-- Brief summary goes here -->
+      Passionate data scientist with experience in machine learning, analytics, and Python programming. Seeking opportunities to apply AI and data-driven solutions.
+    </p>
+  </div>
 
-Create a user-friendly template and workflow for individuals to generate a personal profile website using GitHub Pages (github.io). The goal is to make it simple for anyone to showcase their biography, skills, projects, and contact info, with minimal technical setup.
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, R, SQL</li>
+      <li>Machine Learning, Deep Learning, NLP</li>
+      <li>Data Visualization (Matplotlib, Seaborn, Tableau)</li>
+      <li>Git, GitHub, Docker</li>
+      <li>Statistical Analysis</li>
+    </ul>
+  </div>
 
----
+  <div class="section">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Data Scientist, Company XYZ (2023-2025)</strong>
+        <br>Developed predictive models for customer analytics, improved accuracy by 18%.
+      </li>
+      <li><strong>Research Assistant, University ABC (2021-2023)</strong>
+        <br>Worked on NLP projects and published two papers in top ML conferences.
+      </li>
+    </ul>
+  </div>
 
-## 2. Target Audience
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>M.S. in Computer Science</strong>, University ABC, 2021-2023</li>
+      <li><strong>B.S. in Statistics</strong>, University DEF, 2017-2021</li>
+    </ul>
+  </div>
 
-- Students, professionals, and hobbyists wanting a personal webpage.
-- Users with little to moderate experience with GitHub and web development.
-
----
-
-## 3. Features
-
-### a. Homepage (`index.html` or `index.md`)
-- **Profile photo**
-- **Name and tagline**
-- **Short bio**
-- **Contact links** (email, LinkedIn, GitHub, etc.)
-- **Skills and interests**
-- **List of projects or portfolio**
-- **Downloadable resume (optional)**
-
-### b. Easy Setup
-- Step-by-step instructions in `README.md`
-- All content editable via Markdown or simple HTML
-
-### c. Responsive Design
-- Works on desktop and mobile
-
-### d. Theming
-- Simple color/theme switching via CSS variables or config
-
-### e. Optional Sections
-- Blog or updates feed
-- Social media embeds
-
----
-
-## 4. Technical Requirements
-
-- Hosted via GitHub Pages (static site)
-- Supports both Markdown (`index.md`) and HTML (`index.html`)
-- No server-side code
-- All assets (images, CSS) stored in repository
-- Easy forking and customization
-
----
-
-## 5. User Workflow
-
-1. **Fork the repo**
-2. **Edit profile content** in `index.md` or config file (e.g., `_config.yml`)
-3. **Push changes** to their repository
-4. **Enable GitHub Pages** in repo settings
-5. **Share published site link**
-
----
-
-## 6. Success Criteria
-
-- Users can set up their profile page in under 30 minutes
-- At least three themes available
-- Clear documentation and troubleshooting section
-
----
-
-## 7. Future Enhancements
-
-- Integrate with GitHub API to auto-display pinned repositories
-- Add contact form (using third-party services)
-- Support multilingual profiles
-
----
-
-## 8. References
-
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
-- [Example Profile Templates](https://github.com/topics/profile-website)
-
----
-
-## 9. Contributors
-
-- List contributors and maintainers here
+  <div class="section">
+    <h2>Resume Preview</h2>
+    <!-- Embed the PDF resume -->
+    <iframe src="Resume%20(ChatGPT)%20-%20Difei%20Liu-new.pdf" class="pdf-embed"></iframe>
+  </div>
+</body>
+</html>

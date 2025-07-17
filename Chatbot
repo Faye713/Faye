@@ -3,7 +3,7 @@
 <script src="https://unpkg.com/@mendable/search@0.0.205/dist/umd/mendable-bundle.min.js"></script>
 <script>
 Mendable.initialize({
-    anon_key: 'YOUR_ANON_KEY',
+    anon_key: 'dd1fa412-50d3-4e30-83ce-b08be9e15ae9',
     type:"searchBar",
     elementId: "mendable-component" // required
     // all the other props for the component type
